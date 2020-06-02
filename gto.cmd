@@ -49,6 +49,7 @@ if %1==document (cd /D %userprofile%\Documents)
 if %1==doc (cd /D %userprofile%\Documents)
 if %1==.ssh (cd /D %userprofile%\.ssh)
 if %1==~ (cd /D %userprofile%\)
+if %1==home (cd /D %userprofile%\)
 if %1==download (cd /D %userprofile%\Downloads)
 if %1==appdata (cd /D %userprofile%\AppData\Roaming)
 
